@@ -1,4 +1,4 @@
-function lonelyinteger(a: number[]): number {
+export function lonelyinteger(a: number[]): number {
     let lonely: number = 0;
     
     a.map((item, index) => {
