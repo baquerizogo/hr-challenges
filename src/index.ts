@@ -1,1 +1,1 @@
-console.log("Hello world");
+console.log("This is my Hacker Rank challenges repository");
