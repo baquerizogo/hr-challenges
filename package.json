@@ -1,0 +1,27 @@
+{
+  "name": "hr-challenges",
+  "version": "1.0.0",
+  "description": "Hacker rank challenges solved",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/baquerizogo/hr-challenges.git"
+  },
+  "keywords": [
+    "HackerRank",
+    "challenges",
+    "exercises"
+  ],
+  "author": "José Baquerizo <me@baquerizogo.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/baquerizogo/hr-challenges/issues"
+  },
+  "homepage": "https://github.com/baquerizogo/hr-challenges#readme",
+  "devDependencies": {
+    "typescript": "^4.9.5"
+  }
+}
