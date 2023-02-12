@@ -2,7 +2,7 @@
   "name": "hr-challenges",
   "version": "1.0.0",
   "description": "Hacker rank challenges solved",
-  "main": "index.js",
+  "main": "index.ts",
   "scripts": {
     "test": "jest",
     "test:watch": "jest --watch",
