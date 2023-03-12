@@ -1,4 +1,5 @@
-import { countingSort, createArray } from ".";
+import { countingSort } from ".";
+import { createArray } from "../../utils/createArray";
 
 describe("Counting Sort", (): void => {
 	it("Should throw error if arr lenght is lower than 100 and greater than 100exp6", (): void => {

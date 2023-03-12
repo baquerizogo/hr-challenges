@@ -1,3 +1,11 @@
+import { createArray } from "../../utils/createArray";
+
+/**
+ * Keywords: Create arrays, populate arrays
+ * @param arr 
+ * @returns 
+ */
+
 export function countingSort(arr: number[]): number[] {
 	const less100 = arr.length < 100;
 	const greater10exp6 = arr.length > Math.pow(10, 6);
@@ -8,8 +16,4 @@ export function countingSort(arr: number[]): number[] {
 	arr.map((item) => { result[item] += 1; });
 
 	return result;
-}
-
-export function createArray(length: number, defaultValue: unknown): unknown[] {
-	return Array.from({ length }, () => defaultValue);
 }
