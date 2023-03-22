@@ -15,12 +15,11 @@ describe("printingX", () => {
 		const spyLog = jest.spyOn(console, "log");
 		printingX(5);
 		expect(spyLog).toHaveBeenCalledWith("X___X\n_X_X_\n__X__\n_X_X_\nX___X");
-
 	});
+
 	it("Should print X for n=6", () => {
 		const spyLog = jest.spyOn(console, "log");
 		printingX(6);
 		expect(spyLog).toHaveBeenCalledWith("X____X\n_X__X_\n__XX__\n__XX__\n_X__X_\nX____X");
-
 	});
 });
