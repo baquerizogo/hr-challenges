@@ -20,4 +20,10 @@ describe("histogramArray", () => {
 		histogramArray([5,5,5,5,5,5,5,5,5,5]);
 		expect(spyLog).toHaveBeenCalledWith("1: \n2: \n3: \n4: \n5: **********");
 	});
+
+	it("Should show histogram for the following input when last elements doesn't exist", () => {
+		const spyLog = jest.spyOn(console, "log");
+		histogramArray([4,4,4,4,4,4,4,4,4,4]);
+		expect(spyLog).toHaveBeenCalledWith("1: \n2: \n3: \n4: **********\n5: ");
+	});
 });
